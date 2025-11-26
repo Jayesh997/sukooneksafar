@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #ffc007;
+  --color-purple: #8a63bf;
+  --color-purple-lite: #d7aef2;
+  --charcoal-800: #2d2d2d;
+  --charcoal-300: #b3b3b3;
+  --white: #ffffff;
+  /* ... */
+}
+
+/* Add these if not already in your Tailwind config */
+.gradient-overlay {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    transparent 100%
+  );
+}
+
+/* Smooth transitions */
+.transition-slow {
+  transition: all 0.5s ease;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-100% / 2));
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(calc(-100% / 2));
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+  width: calc(200%);
+}
+
+.animation-paused {
+  animation-play-state: paused;
+  /* Remove transition to prevent jumping */
+  transition: none !important;
+}
+.animate-scroll-reverse {
+  animation: scroll-reverse 40s linear infinite;
+  width: calc(200%);
+}
+
+/* .animation-paused {
+  animation-play-state: paused;
+} */
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #fbfbfb;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
