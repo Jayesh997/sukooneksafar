@@ -1,5 +1,6 @@
 import React from "react";
 import aboutUs from "../assets/images/aboutUs.jpg"; // Adjust the path as necessary
+import sukoonLogo from "../assets/images/sukoonlogo.png";
 const AboutUs = () => {
   const testimonials = [
     {
@@ -72,15 +73,21 @@ const AboutUs = () => {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <img
-                src={aboutUs} // Replace with your image
+                src={sukoonLogo} // Replace with your image
                 alt="Sukoon Ek Safar"
-                className="rounded-lg shadow-xl"
+                className="rounded-lg "
               />
             </div>
             <div className="md:w-1/2">
-              <h2 className="text-3xl font-serif text-gray-800 mb-6">
+              <h2 className="text-3xl font-serif text-gold-dark mb-2">
                 Sukoon Ek Safar
               </h2>
+              <p className="text-xl md:text-xl text-gold-dark max-w-3xl mx-auto ">
+                13 years of travel experience Recognised by ministry of Tourism
+              </p>
+              <p className="text-xl md:text-xl text-gold-dark max-w-3xl mx-auto mb-6">
+                A Unit of Cherish Journeys
+              </p>
               <p className="text-lg text-gray-600 mb-6">
                 At Sukoon Ek Safar, we believe travel is more than just moving
                 from one destination to another. It’s about creating space to
@@ -113,7 +120,7 @@ const AboutUs = () => {
 
         {/* Why Choose Us Section */}
         <section className="mb-20 bg-gray-50 p-12 rounded-xl">
-          <h2 className="text-3xl font-serif text-center text-gray-800 mb-12">
+          <h2 className="text-3xl font-serif text-center text-gold-dark mb-12">
             Why Choose Sukoon Ek Safar
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -150,7 +157,7 @@ const AboutUs = () => {
 
         {/* Team Section */}
         <section className="mb-20">
-          <h2 className="text-3xl font-serif text-center text-gray-800 mb-12">
+          <h2 className="text-3xl font-serif text-center text-gold-dark mb-12">
             Our Commitment
           </h2>
           <div className="flex flex-col md:flex-row gap-12 items-center">
@@ -208,7 +215,7 @@ const AboutUs = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-purple text-white rounded-xl p-12 text-center">
+        <section className="bg-grey text-gold rounded-xl p-12 text-center">
           <h2 className="text-3xl font-serif mb-6">
             Ready to Start Your Journey?
           </h2>
@@ -216,7 +223,7 @@ const AboutUs = () => {
             Let us craft the perfect travel experience tailored exactly to your
             desires.
           </p>
-          <button className="bg-white text-gold px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+          <button className="bg-white text-gold-dark px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
             Contact Us Today
           </button>
         </section>

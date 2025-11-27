@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router"; // Changed from 'react-router'
-import navLogo from "../assets/images/navLogo.png";
+import { NavLink } from "react-router";
+import sukoonLogo from "../assets/images/sukoon.png";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -20,22 +20,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full z-50  bg-purple backdrop-blur-md">
-      <div className="max-w-7xl mx-auto px-6 py-3 flex justify-end md:justify-center items-center">
+    <nav className="fixed w-full z-50 bg-grey backdrop-blur-md">
+      <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo - Left Side */}
-        {/* <NavLink
+        <NavLink
           to="/"
           className="flex items-center group"
           onClick={handleNavClick}
         >
           <img
-            src={navLogo}
+            src={sukoonLogo}
             alt="Logo"
             className="h-10 w-20 mr-2 rounded-full transition-transform duration-300 group-hover:scale-105"
           />
-        </NavLink> */}
+        </NavLink>
 
-        {/* Desktop Navigation */}
+        {/* Desktop Navigation - Right Side */}
         <div className="hidden md:flex space-x-8">
           {navItems.map((item) => (
             <NavLink
@@ -63,7 +63,7 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Button - Right Side */}
         <button
           className="md:hidden text-charcoal-300 focus:outline-none"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

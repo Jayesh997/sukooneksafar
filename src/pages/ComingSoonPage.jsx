@@ -74,20 +74,19 @@ const ComingSoonPage = () => {
       {/* Hero Section */}
       <div className="relative pt-28 pb-20 bg-gradient-to-b from-gray-50 to-white">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-serif text-gray-800 mb-6">
+          <h1 className="text-4xl md:text-6xl font-serif text-gold-dark mb-6">
             Something Beautiful is Coming
           </h1>
+
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-12">
-            We're crafting an extraordinary travel experience where every
-            journey brings peace, comfort, and mindful moments.
+            Our Website is currently under construction, but our services are
+            fully Operational.
           </p>
 
           {/* Countdown Timer */}
-          <div className="bg-purple-lite rounded-xl shadow-lg p-8 max-w-sm mx-auto mb-16">
+          <div className="bg-grey-lite rounded-xl shadow-lg p-8 max-w-sm mx-auto mb-16">
             <Lottie animationData={animationData} />
-            <h2 className="text-2xl font-serif text-gray-800 mb-8">
-              Launching Soon
-            </h2>
+            <h2 className="text-2xl mb-2">Launching Soon...</h2>
             {/* <div className="flex justify-center space-x-4 md:space-x-8">
               <div className="text-center">
                 <div className="bg-gray-50 rounded-lg p-6 w-20 md:w-24">
@@ -129,9 +128,11 @@ const ComingSoonPage = () => {
       {/* Features Preview Section */}
 
       {/* Footer */}
-      <div className="bg-purple text-white py-8">
+      <div className="bg-grey text-white py-8">
         <div className="max-w-7xl mx-auto px-4 text-center">
-          <h3 className="text-2xl font-serif mb-2">Sukoon Ek Safar</h3>
+          <h3 className="text-2xl text-gold font-serif mb-2">
+            Sukoon Ek Safar
+          </h3>
           <p className="text-white mb-4">Journey to Peace • Coming Soon</p>
           <div className="flex justify-center space-x-6 text-white">
             <a href="#" className="hover:text-white transition duration-300">
