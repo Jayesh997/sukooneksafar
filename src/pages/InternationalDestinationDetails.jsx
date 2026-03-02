@@ -1,5 +1,5 @@
 import { useParams } from "react-router";
-import { statesData } from "../assets/statesData";
+import { statesData } from "../assets/internationalStatesData";
 import ImageCarousel from "../components/ImageCarousel";
 
 // ---------- Reusable Sections ----------
@@ -36,7 +36,7 @@ const ParagraphSection = ({ title, paragraphs }) => {
 };
 
 // ---------- Main Component ----------
-const DestinationDetail = () => {
+const InternationalDestinationDetail = () => {
   const { id } = useParams();
   const destination = statesData[id];
 
@@ -97,4 +97,4 @@ const DestinationDetail = () => {
   );
 };
 
-export default DestinationDetail;
+export default InternationalDestinationDetail;

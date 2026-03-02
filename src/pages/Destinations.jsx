@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router";
-import img from "../assets/images/aboutUs.jpg";
+import bgImg from "../assets/images/paperBg.jpg";
 
 const Destinations = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -9,7 +9,7 @@ const Destinations = () => {
   // Destination data
   const destinations = [
     {
-      id: 1,
+      id: "kashmir",
       title: "Kashmir",
       description:
         "The paradise on earth with stunning valleys and serene lakes",
@@ -18,7 +18,7 @@ const Destinations = () => {
       featured: true,
     },
     {
-      id: 2,
+      id: "goa",
       title: "Goa",
       description: "Sun-kissed beaches and vibrant nightlife",
       image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
@@ -34,7 +34,7 @@ const Destinations = () => {
       featured: true,
     },
     {
-      id: 4,
+      id: "kerala",
       title: "Kerala",
       description: "Lush backwaters and Ayurvedic retreats",
       image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
@@ -96,7 +96,10 @@ const Destinations = () => {
   };
 
   return (
-    <div className="bg-[#f9f9f9] pt-40 pb-10">
+    <div
+      className="bg-[#f9f9f9] pt-40 pb-10 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
       <div className="max-w-7xl mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">

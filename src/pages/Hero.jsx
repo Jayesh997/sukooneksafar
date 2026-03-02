@@ -5,8 +5,8 @@ import ComingSoonPage from "./ComingSoonPage";
 const Hero = () => {
   return (
     <div>
-      {/* <HeroVideo /> */}
-      <ComingSoonPage />
+      <HeroVideo />
+      {/* <ComingSoonPage /> */}
     </div>
   );
 };

@@ -7,8 +7,10 @@ const Navbar = () => {
   const navItems = [
     { name: "Home", path: "/" },
     // { name: "Destinations", path: "/destinations" },
-    // { name: "Experiences", path: "/experiences" },
     { name: "About Us", path: "/about" },
+    { name: "India", path: "/india" },
+    { name: "International", path: "/international" },
+    { name: "Experiences", path: "/experiences" },
   ];
 
   const handleNavClick = () => {
@@ -20,7 +22,15 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full z-50 bg-grey backdrop-blur-md">
+    <nav
+      className="fixed w-full z-50 backdrop-blur-md bg-black/30 transition-colors duration-300"
+      style={{
+        backgroundColor: "rgba(0,0,0,0.3)",
+        backdropFilter: "blur(8px)",
+        WebkitBackdropFilter: "blur(8px)",
+        borderBottom: "1px solid rgba(255,255,255,0.1)",
+      }}
+    >
       <div className="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
         {/* Logo - Left Side */}
         <NavLink

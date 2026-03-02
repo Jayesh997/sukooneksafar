@@ -1,6 +1,7 @@
 import React from "react";
 import aboutUs from "../assets/images/aboutUs.jpg"; // Adjust the path as necessary
 import sukoonLogo from "../assets/images/sukoonlogo.png";
+import bgImg from "../assets/images/paperBg.jpg";
 const AboutUs = () => {
   const testimonials = [
     {
@@ -46,26 +47,10 @@ const AboutUs = () => {
   };
 
   return (
-    <div className="bg-white">
-      {/* Hero Section */}
-      {/* <div className="relative h-56 w-full overflow-hidden">
-        <div className="absolute inset-0 bg-black/30 z-10"></div>
-        <img
-          src={aboutUs} // Replace with your about us hero image
-          alt="Cherish Journeys Team"
-          className="absolute inset-0 object-cover w-full h-full"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 z-10"></div>
-        <div className="relative z-20 flex flex-col items-center justify-center h-full text-white px-4 text-center">
-          <h1 className="text-4xl md:text-6xl font-serif mb-4 text-gold">
-            Our Story
-          </h1>
-          <p className="text-xl md:text-2xl max-w-2xl">
-            Crafting unforgettable journeys since our inception
-          </p>
-        </div>
-      </div> */}
-
+    <div
+      className="bg-white pt-40 pb-10 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 pt-28 py-16">
         {/* Mission Section */}

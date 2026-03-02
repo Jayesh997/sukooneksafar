@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router";
+import bgImg from "../assets/images/paperBg.jpg";
 
 const Experience = () => {
   const [isPaused, setIsPaused] = useState(false);
@@ -95,7 +96,10 @@ const Experience = () => {
   };
 
   return (
-    <div className="bg-white pt-40 pb-10">
+    <div
+      className="bg-[#f9f9f9] pt-40 pb-10 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
       <div className="max-w-7xl mx-auto px-4">
         <h1 className="text-4xl md:text-5xl font-serif text-center text-gray-800 mb-4">
           Our Experiences
