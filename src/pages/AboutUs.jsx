@@ -48,7 +48,7 @@ const AboutUs = () => {
 
   return (
     <div
-      className="bg-white pt-40 pb-10 bg-cover bg-center bg-no-repeat"
+      className="bg-white pt-5 pb-10 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       {/* Main Content */}

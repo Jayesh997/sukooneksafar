@@ -25,11 +25,11 @@ const HeroVideo = () => {
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-white px-4 text-center">
         <img src={logo} alt="cherish" />
         <h1 className="text-5xl md:text-7xl font-serif mb-4 text-gold ">
-          Welcome to Cherish Journeys
+          Sukoon Ek Safar...
         </h1>
         {/* <p className="">A TOUCH OF EXOTIC</p> */}
         <p className="text-xl md:text-2xl max-w-2xl mb-8">
-          Recognised by Ministry of Tourism, Government of India
+          Where travel becomes tranquility
         </p>
 
         <NavLink
