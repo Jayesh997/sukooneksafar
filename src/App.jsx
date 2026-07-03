@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import Experience from "./pages/Experience";
-import Destinations from "./pages/Destinations";
+// import Destinations from "./pages/Destinations";
 import DestinationDetail from "./pages/DestinationDetail";
 import ExperienceDetail from "./pages/ExperienceDetail";
 import NotFound from "./pages/NotFound";
@@ -27,7 +27,7 @@ function App() {
         {/* Individual pages */}
         <Route path="/about" element={<AboutUs />} />
         <Route path="/experiences" element={<Experience />} />
-        <Route path="/destinations" element={<Destinations />} />
+        {/* <Route path="/destinations" element={<Destinations />} /> */}
         <Route path="/india" element={<India />} />
         <Route path="/international" element={<International />} />
 
