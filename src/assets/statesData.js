@@ -4,9 +4,30 @@ export const statesData = {
     title: "Kerala",
     tagline: "God’s Own Country",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala6.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Serene backwaters, lagoons, and houseboat experiences",
@@ -47,9 +68,34 @@ export const statesData = {
     title: "Rajasthan",
     tagline: "Land of Royals & Timeless Grandeur",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan6.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan7.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Majestic forts, palaces, and royal cities",
@@ -89,9 +135,20 @@ export const statesData = {
     title: "Goa",
     tagline: "Coastal Charm & Relaxed Luxury",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL("../assets/images/sukoonWebImages/goa/goa1.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/goa/goa2.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/goa/goa3.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/goa/goa4.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/goa/goa5.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/goa/goa6.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/goa/goa7.webp", import.meta.url)
+        .href,
     ],
     highlights: [
       "Sun-kissed beaches and laid-back coastal lifestyle",
@@ -131,9 +188,38 @@ export const statesData = {
     title: "Himachal Pradesh",
     tagline: "Mountains, Mist & Quiet Retreats",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp6.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp7.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/himachal/hp8.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Snow-clad mountains and scenic valleys",
@@ -173,9 +259,30 @@ export const statesData = {
     title: "Kashmir",
     tagline: "Paradise on Earth",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir7.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir8.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Snow-capped mountains and lush green valleys",
@@ -210,6 +317,7 @@ export const statesData = {
     ctaText: "Plan a Kashmir Escape",
   },
 
+  //no images for Uttrakhand
   uttarakhand: {
     id: "uttarakhand",
     title: "Uttarakhand",
@@ -251,6 +359,7 @@ export const statesData = {
     ctaText: "Plan an Uttarakhand Journey",
   },
 
+  // no images for tamilNadu
   tamilNadu: {
     id: "tamil-nadu",
     title: "Tamil Nadu",
@@ -291,7 +400,7 @@ export const statesData = {
     ],
     ctaText: "Plan a Tamil Nadu Journey",
   },
-
+  // no images for karnataka
   karnataka: {
     id: "karnataka",
     title: "Karnataka",
@@ -338,9 +447,22 @@ export const statesData = {
     title: "Maharashtra",
     tagline: "City Glamour & Natural Diversity",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mumbai/mumbai1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mumbai/mumbai2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mumbai/mumbai3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mumbai/mumbai4.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Vibrant cities like Mumbai and Pune",
@@ -379,9 +501,30 @@ export const statesData = {
     title: "Assam",
     tagline: "Tea Gardens, Rivers & Tranquil Landscapes",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/assam/assam1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/assam/assam2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/assam/assam3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/assam/assam4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/assam/assam5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/assam/assam6.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Vast tea plantations",
@@ -420,9 +563,26 @@ export const statesData = {
     title: "Punjab",
     tagline: "Royal Hospitality & Vibrant Culture",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/punjab/punjab1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/punjab/punjab2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/punjab/punjab3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/punjab/punjab4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/punjab/punjab5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Spiritual landmarks",
@@ -461,9 +621,26 @@ export const statesData = {
     title: "Ladakh",
     tagline: "High Himalayas & Adventure Luxury",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ladakh/ladakh6.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ladakh/ladakh2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ladakh/ladakh3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ladakh/ladakh4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ladakh/ladakh5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Rugged Himalayan landscapes",
@@ -501,9 +678,22 @@ export const statesData = {
     title: "Jharkhand",
     tagline: "Forests, Waterfalls & Tribal Heritage",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jharkhand/jharkhand1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jharkhand/jharkhand2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jharkhand/jharkhand3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jharkhand/jharkhand4.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Dense forests and protected wildlife sanctuaries",
@@ -543,9 +733,26 @@ export const statesData = {
     title: "Manipur",
     tagline: "Lakes, Culture & Tranquil Landscapes",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/manipur/manipur1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/manipur/manipur2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/manipur/manipur3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/manipur/manipur4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/manipur/manipur5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Scenic hills and lush green valleys",
@@ -585,9 +792,26 @@ export const statesData = {
     title: "Mizoram",
     tagline: "Hills, Rivers & Serene Escapes",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mizoram/mizoram1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mizoram/mizoram2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mizoram/mizoram3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mizoram/mizoram4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mizoram/mizoram5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Rolling hills and scenic landscapes",
@@ -627,9 +851,18 @@ export const statesData = {
     title: "Nagaland",
     tagline: "Mountains, Culture & Festivals",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nagaland/nagaland1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nagaland/nagaland2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nagaland/nagaland3.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Scenic hills and lush green landscapes",
@@ -669,9 +902,22 @@ export const statesData = {
     title: "Tripura",
     tagline: "Palaces, Culture & Scenic Beauty",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tripura/tripura1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tripura/tripura2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tripura/tripura3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tripura/tripura4.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Historic palaces and ancient temples",
@@ -711,9 +957,30 @@ export const statesData = {
     title: "Delhi",
     tagline: "Heritage, Culture & Urban Luxury",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi6.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Historic monuments and UNESCO World Heritage sites",
@@ -753,9 +1020,26 @@ export const statesData = {
     title: "Puducherry",
     tagline: "French Charm & Coastal Calm",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/puducherry/puducherry1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/puducherry/puducherry2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/puducherry/puducherry3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/puducherry/puducherry4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/puducherry/puducherry5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "French colonial architecture and heritage streets",
@@ -790,6 +1074,8 @@ export const statesData = {
     ],
     ctaText: "Plan a Puducherry Journey",
   },
+
+  //no images for dadraNagarHaveli
   dadraNagarHaveli: {
     id: "dadraNagarHaveli",
     title: "Dadra & Nagar Haveli",
@@ -838,9 +1124,26 @@ export const statesData = {
     title: "Daman & Diu",
     tagline: "Coastal Charm & Heritage Retreats",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/damanDiu/damanDiu1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/damanDiu/damanDiu2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/damanDiu/damanDiu3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/damanDiu/damanDiu4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/damanDiu/damanDiu5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "Pristine beaches and scenic coastal landscapes",
@@ -881,8 +1184,30 @@ export const statesData = {
     title: "Odisha",
     tagline: "Temples, Coastlines & Artistic Heritage",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha6.webp",
+        import.meta.url,
+      ).href,
       new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
     ],
     highlights: [
@@ -921,7 +1246,28 @@ export const statesData = {
     id: "chhattisgarh",
     title: "Chhattisgarh",
     tagline: "Forests, Waterfalls & Tribal Heritage",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/chhattisgarh/chhattisgarh1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/chhattisgarh/chhattisgarh2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/chhattisgarh/chhattisgarh3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/chhattisgarh/chhattisgarh4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/chhattisgarh/chhattisgarh5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Dense forests and wildlife sanctuaries",
       "Scenic waterfalls and rivers",
@@ -956,7 +1302,32 @@ export const statesData = {
     id: "bihar",
     title: "Bihar",
     tagline: "Spiritual Roots & Ancient Learning",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Ancient Buddhist and Hindu sites",
       "Historic universities and monuments",
@@ -985,7 +1356,28 @@ export const statesData = {
     id: "westBengal",
     title: "West Bengal",
     tagline: "Culture, Hills & Coastal Charm",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/westBengal/westBengal1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/westBengal/westBengal2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/westBengal/westBengal3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/westBengal/westBengal4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/westBengal/westBengal5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Colonial cities and cultural heritage",
       "Tea gardens and Himalayan views",
@@ -1018,7 +1410,32 @@ export const statesData = {
     id: "sikkim",
     title: "Sikkim",
     tagline: "Himalayan Serenity & Spiritual Bliss",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim6.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Himalayan landscapes",
       "Buddhist monasteries",
@@ -1046,7 +1463,32 @@ export const statesData = {
     id: "meghalaya",
     title: "Meghalaya",
     tagline: "Waterfalls, Hills & Living Roots",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya6.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Lush green hills",
       "Living root bridges",
@@ -1074,7 +1516,28 @@ export const statesData = {
     id: "arunachalPradesh",
     title: "Arunachal Pradesh",
     tagline: "Untouched Himalayas & Tribal Culture",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/arunachalPradesh/arunachalPradesh1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/arunachalPradesh/arunachalPradesh2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/arunachalPradesh/arunachalPradesh3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/arunachalPradesh/arunachalPradesh4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/arunachalPradesh/arunachalPradesh5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Pristine Himalayan valleys",
       "Tribal culture and festivals",
@@ -1102,7 +1565,28 @@ export const statesData = {
     id: "andamanNicobar",
     title: "Andaman & Nicobar Islands",
     tagline: "Tropical Paradise & Pristine Beaches",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/andn/andn1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/andn/andn2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/andn/andn3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/andn/andn4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/andn/andn5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "White sand beaches",
       "Coral reefs and marine life",
@@ -1134,7 +1618,28 @@ export const statesData = {
     id: "lakshadweep",
     title: "Lakshadweep",
     tagline: "Turquoise Waters & Island Luxury",
-    images: [new URL("../assets/images/aboutUs.jpg", import.meta.url).href],
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/lakshdweep/lakshdweep1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/lakshdweep/lakshdweep2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/lakshdweep/lakshdweep3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/lakshdweep/lakshdweep4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/lakshdweep/lakshdweep5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Pristine coral islands",
       "Crystal-clear lagoons",

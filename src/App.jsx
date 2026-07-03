@@ -1,3 +1,4 @@
+// App.js
 import { Routes, Route } from "react-router";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
@@ -11,12 +12,14 @@ import India from "./pages/India";
 import International from "./pages/International";
 import InternationalDestinationDetail from "./pages/InternationalDestinationDetails";
 import ScrollToTop from "./ScrollToTop";
+import ScrollToSectionOnLoad from "./components/ScrollToSectionOnLoad";
 
 function App() {
   return (
     <>
       <NavBar />
       <ScrollToTop />
+      <ScrollToSectionOnLoad /> {/* Add this */}
       <Routes>
         {/* Home page with all sections */}
         <Route path="/" element={<Home />} />
