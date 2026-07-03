@@ -32,22 +32,28 @@ const ExperienceCard = ({ item, onClick }) => {
 const Carousel = ({ items, onCardClick, title }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const carouselRef = useRef(null);
-  const itemsPerView = 3; // Number of items visible at once
+  const itemsPerView = 3;
   const totalItems = items.length;
-  const duplicatedItems = [...items, ...items, ...items]; // Triple for seamless looping
-  const startIndex = items.length; // Start from middle set
+  const duplicatedItems = [...items, ...items, ...items];
+  const startIndex = items.length;
+  const cardWidth = 288; // w-72 = 288px
+  const gap = 24; // mx-3 = 24px total gap
+  const cardTotalWidth = cardWidth + gap;
 
-  // Auto-play functionality
+  // Auto-play functionality with hover control
   useEffect(() => {
+    if (isHovered) return;
+
     const interval = setInterval(() => {
       if (!isTransitioning) {
         handleNext();
       }
-    }, 4000);
+    }, 1000);
 
     return () => clearInterval(interval);
-  }, [currentIndex, isTransitioning]);
+  }, [currentIndex, isTransitioning, isHovered]);
 
   const handlePrev = () => {
     if (isTransitioning) return;
@@ -61,36 +67,53 @@ const Carousel = ({ items, onCardClick, title }) => {
     setCurrentIndex((prev) => prev + 1);
   };
 
-  // Handle seamless looping
+  // Handle seamless looping - FIXED
   useEffect(() => {
-    if (currentIndex === 0) {
-      // If at the beginning, jump to the middle set
+    // When we reach the end of the duplicated array
+    if (currentIndex >= duplicatedItems.length - itemsPerView) {
       setTimeout(() => {
-        setIsTransitioning(false);
-        setCurrentIndex(startIndex);
+        // Disable transition for instant jump
         if (carouselRef.current) {
           carouselRef.current.style.transition = "none";
-          const offset = -(startIndex * (288 + 24)); // 288px width + 24px gap
-          carouselRef.current.style.transform = `translateX(${offset}px)`;
-          // Force reflow
-          carouselRef.current.offsetHeight;
-          carouselRef.current.style.transition = "transform 500ms ease-in-out";
         }
-      }, 500);
-    } else if (currentIndex === duplicatedItems.length - 1) {
-      // If at the end, jump to the middle set
+        // Jump back to the corresponding position in the middle set
+        const newIndex =
+          startIndex + (currentIndex - (duplicatedItems.length - itemsPerView));
+        setCurrentIndex(newIndex);
+        // Update position instantly
+        if (carouselRef.current) {
+          const offset = -(newIndex * cardTotalWidth);
+          carouselRef.current.style.transform = `translateX(${offset}px)`;
+        }
+        // Re-enable transition after a small delay
+        setTimeout(() => {
+          if (carouselRef.current) {
+            carouselRef.current.style.transition =
+              "transform 500ms ease-in-out";
+          }
+          setIsTransitioning(false);
+        }, 50);
+      }, 500); // Wait for the transition to complete
+    }
+    // When we reach the beginning
+    else if (currentIndex <= 0) {
       setTimeout(() => {
-        setIsTransitioning(false);
-        const newIndex = startIndex + (items.length - 1);
+        if (carouselRef.current) {
+          carouselRef.current.style.transition = "none";
+        }
+        const newIndex = startIndex + (currentIndex + itemsPerView);
         setCurrentIndex(newIndex);
         if (carouselRef.current) {
-          carouselRef.current.style.transition = "none";
-          const offset = -(newIndex * (288 + 24));
+          const offset = -(newIndex * cardTotalWidth);
           carouselRef.current.style.transform = `translateX(${offset}px)`;
-          // Force reflow
-          carouselRef.current.offsetHeight;
-          carouselRef.current.style.transition = "transform 500ms ease-in-out";
         }
+        setTimeout(() => {
+          if (carouselRef.current) {
+            carouselRef.current.style.transition =
+              "transform 500ms ease-in-out";
+          }
+          setIsTransitioning(false);
+        }, 50);
       }, 500);
     } else {
       // Normal transition complete
@@ -98,26 +121,33 @@ const Carousel = ({ items, onCardClick, title }) => {
         setIsTransitioning(false);
       }, 500);
     }
-  }, [currentIndex, startIndex, duplicatedItems.length, items.length]);
+  }, [
+    currentIndex,
+    startIndex,
+    duplicatedItems.length,
+    items.length,
+    itemsPerView,
+    cardTotalWidth,
+  ]);
 
-  // Update carousel position
+  // Update carousel position - FIXED
   useEffect(() => {
-    if (carouselRef.current && !isTransitioning) {
-      const offset = -(currentIndex * (288 + 24)); // 288px width + 24px gap
+    if (carouselRef.current) {
+      const offset = -(currentIndex * cardTotalWidth);
       carouselRef.current.style.transform = `translateX(${offset}px)`;
     }
-  }, [currentIndex, isTransitioning]);
+  }, [currentIndex, cardTotalWidth]);
 
   // Initialize carousel position
   useEffect(() => {
     if (carouselRef.current) {
       const initialIndex = startIndex;
       setCurrentIndex(initialIndex);
-      const offset = -(initialIndex * (288 + 24));
+      const offset = -(initialIndex * cardTotalWidth);
       carouselRef.current.style.transform = `translateX(${offset}px)`;
       carouselRef.current.style.transition = "transform 500ms ease-in-out";
     }
-  }, []);
+  }, [cardTotalWidth, startIndex]);
 
   return (
     <div className="mb-20">
@@ -125,51 +155,13 @@ const Carousel = ({ items, onCardClick, title }) => {
         <h2 className="text-2xl font-serif text-gray-800 pl-4 border-l-4 border-gold">
           {title}
         </h2>
-        {/* <div className="flex gap-3">
-          <button
-            onClick={handlePrev}
-            disabled={isTransitioning}
-            className="bg-gold hover:bg-gold-dark text-white w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
-            aria-label="Previous"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M15 19l-7-7 7-7"
-              />
-            </svg>
-          </button>
-          <button
-            onClick={handleNext}
-            disabled={isTransitioning}
-            className="bg-gold hover:bg-gold-dark text-white w-12 h-12 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 disabled:opacity-50 disabled:cursor-not-allowed shadow-md"
-            aria-label="Next"
-          >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 5l7 7-7 7"
-              />
-            </svg>
-          </button>
-        </div> */}
       </div>
 
-      <div className="relative overflow-hidden py-3 px-3">
+      <div
+        className="relative overflow-hidden py-3 px-3"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
         <div
           ref={carouselRef}
           className="flex"
@@ -190,7 +182,6 @@ const Carousel = ({ items, onCardClick, title }) => {
         {/* Dots indicator */}
         <div className="flex justify-center gap-2 mt-6">
           {items.map((_, index) => {
-            // Calculate which dot should be active based on current position
             let isActive = false;
             const normalizedIndex =
               (((currentIndex - startIndex) % items.length) + items.length) %
