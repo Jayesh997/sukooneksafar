@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import { NavLink } from "react-router";
-import WebsiteFrontVideo from "../assets/videos/WebsiteFrontVideo.mp4";
+import WebsiteFrontVideo from "../assets/videos/WebsiteFrontVideo1.mp4";
 import logo from "../assets/images/navLogo.png";
 
 const HeroVideo = () => {
-  const [isMuted, setIsMuted] = useState(true);
+  // const [isMuted, setIsMuted] = useState(true);
 
   return (
     <div className="relative h-screen w-full overflow-hidden">
@@ -15,7 +15,7 @@ const HeroVideo = () => {
         src={WebsiteFrontVideo}
         playing
         loop
-        muted={isMuted}
+        muted={true}
         width="100%"
         height="100%"
         className="absolute inset-0 object-cover"
@@ -29,7 +29,7 @@ const HeroVideo = () => {
         </h1>
         {/* <p className="">A TOUCH OF EXOTIC</p> */}
         <p className="text-xl md:text-2xl max-w-2xl mb-8">
-          Where travel becomes tranquility
+          Where Every Journey Beigns With Comfort, Care & Trust
         </p>
 
         <NavLink

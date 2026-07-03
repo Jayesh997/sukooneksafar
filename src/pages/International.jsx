@@ -639,7 +639,7 @@ const International = () => {
 
   return (
     <div
-      className="bg-[#f9f9f9] pt-40 pb-10 bg-cover bg-center bg-no-repeat"
+      className="bg-[#f9f9f9] pt-20 pb-20 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="max-w-7xl mx-auto px-4">

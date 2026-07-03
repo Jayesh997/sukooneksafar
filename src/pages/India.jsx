@@ -21,7 +21,10 @@ const India = () => {
       subtitle: "God’s Own Country",
       description:
         "Serene backwaters, wellness retreats, lush hills, and tropical beauty",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/kerala/kerala1.webp",
+        import.meta.url,
+      ).href,
       category: "Backwaters",
       featured: false,
     },
@@ -31,7 +34,10 @@ const India = () => {
       subtitle: "Land of Royals & Timeless Grandeur",
       description:
         "Majestic forts, royal palaces, desert landscapes, and heritage luxury",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/rajasthan/rajasthan1.webp",
+        import.meta.url,
+      ).href,
       category: "Heritage",
       featured: true,
     },
@@ -41,7 +47,10 @@ const India = () => {
       subtitle: "Coastal Charm & Relaxed Luxury",
       description:
         "Sun-kissed beaches, boutique resorts, vibrant culture, and leisure travel",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/goa/goa1.webp",
+        import.meta.url,
+      ).href,
       category: "Beaches",
       featured: false,
     },
@@ -51,7 +60,10 @@ const India = () => {
       subtitle: "Mountains, Mist & Quiet Retreats",
       description:
         "Snow-clad mountains, peaceful hill towns, forest retreats, and scenic valleys",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/himachal/hp1.webp",
+        import.meta.url,
+      ).href,
       category: "Mountains",
       featured: true,
     },
@@ -61,10 +73,14 @@ const India = () => {
       subtitle: "Paradise on Earth",
       description:
         "Snow-covered peaks, tranquil lakes, alpine meadows, and scenic beauty",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/kashmir/kashmir3.webp",
+        import.meta.url,
+      ).href,
       category: "Mountains",
       featured: true,
     },
+    //no image for uttrakhand
     {
       id: "uttarakhand",
       title: "Uttarakhand",
@@ -75,6 +91,7 @@ const India = () => {
       category: "Spiritual",
       featured: false,
     },
+    //no image for tamil nadu
     {
       id: "tamilNadu",
       title: "Tamil Nadu",
@@ -85,6 +102,7 @@ const India = () => {
       category: "Heritage",
       featured: false,
     },
+    //no image for karnataka
     {
       id: "karnataka",
       title: "Karnataka",
@@ -101,7 +119,10 @@ const India = () => {
       subtitle: "City Glamour & Natural Diversity",
       description:
         "Urban energy, heritage caves, hill stations, and scenic coastlines",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/mumbai/mumbai2.webp",
+        import.meta.url,
+      ).href,
       category: "Diverse",
       featured: true,
     },
@@ -111,7 +132,10 @@ const India = () => {
       subtitle: "Tea Gardens, Rivers & Tranquil Landscapes",
       description:
         "Vast tea estates, river cruises, wildlife, and rich cultural traditions",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/assam/assam1.webp",
+        import.meta.url,
+      ).href,
       category: "Nature",
       featured: false,
     },
@@ -121,7 +145,10 @@ const India = () => {
       subtitle: "Royal Hospitality & Vibrant Culture",
       description:
         "Spiritual landmarks, lively traditions, rich cuisine, and warm hospitality",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/punjab/punjab1.webp",
+        import.meta.url,
+      ).href,
       category: "Cultural",
       featured: false,
     },
@@ -131,7 +158,10 @@ const India = () => {
       subtitle: "High Himalayas & Adventure Luxury",
       description:
         "Dramatic landscapes, alpine lakes, monasteries, and adventure experiences",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/ladakh/ladakh3.webp",
+        import.meta.url,
+      ).href,
       category: "Adventure",
       featured: true,
     },
@@ -141,7 +171,10 @@ const India = () => {
       subtitle: "Forests, Waterfalls & Tribal Heritage",
       description:
         "Dense forests, scenic waterfalls, wildlife, and tribal culture",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/jharkhand/jharkhand1.webp",
+        import.meta.url,
+      ).href,
       category: "Nature",
       featured: false,
     },
@@ -151,7 +184,10 @@ const India = () => {
       subtitle: "Lakes, Culture & Tranquil Landscapes",
       description:
         "Serene lakes, lush valleys, traditional dance, and peaceful travel",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/manipur/manipur1.webp",
+        import.meta.url,
+      ).href,
       category: "Cultural",
       featured: false,
     },
@@ -161,7 +197,10 @@ const India = () => {
       subtitle: "Hills, Rivers & Serene Escapes",
       description:
         "Rolling hills, tribal traditions, clear rivers, and quiet retreats",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/mizoram/mizoram1.webp",
+        import.meta.url,
+      ).href,
       category: "Nature",
       featured: false,
     },
@@ -171,7 +210,10 @@ const India = () => {
       subtitle: "Mountains, Culture & Festivals",
       description:
         "Vibrant tribal culture, scenic hills, festivals, and offbeat travel",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/nagaland/nagaland1.webp",
+        import.meta.url,
+      ).href,
       category: "Cultural",
       featured: false,
     },
@@ -181,7 +223,10 @@ const India = () => {
       subtitle: "Palaces, Culture & Scenic Beauty",
       description:
         "Royal palaces, tribal traditions, scenic hills, and peaceful escapes",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/tripura/tripura1.webp",
+        import.meta.url,
+      ).href,
       category: "Heritage",
       featured: false,
     },
@@ -191,7 +236,10 @@ const India = () => {
       subtitle: "Heritage, Culture & Urban Luxury",
       description:
         "Historic monuments, vibrant markets, museums, and luxury city stays",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/delhi/delhi1.webp",
+        import.meta.url,
+      ).href,
       category: "Urban",
       featured: true,
     },
@@ -201,7 +249,10 @@ const India = () => {
       subtitle: "French Charm & Coastal Calm",
       description:
         "Colonial heritage, tranquil beaches, cafés, and wellness retreats",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/puducherry/puducherry1.webp",
+        import.meta.url,
+      ).href,
       category: "Coastal",
       featured: false,
     },
@@ -221,7 +272,10 @@ const India = () => {
       subtitle: "Coastal Charm & Heritage Retreats",
       description:
         "Pristine beaches, Portuguese forts, and relaxed coastal travel",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/damanDiu/damanDiu1.webp",
+        import.meta.url,
+      ).href,
       category: "Beaches",
       featured: false,
     },
@@ -231,7 +285,10 @@ const India = () => {
       subtitle: "Temples, Coastlines & Artistic Heritage",
       description:
         "Sacred temples, scenic beaches, lakes, and rich artistic traditions",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/odisha/odisha1.webp",
+        import.meta.url,
+      ).href,
       category: "Heritage",
       featured: false,
     },
@@ -241,7 +298,10 @@ const India = () => {
       subtitle: "Forests, Waterfalls & Tribal Heritage",
       description:
         "Dense forests, waterfalls, tribal culture, and eco-travel experiences",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/chhattisgarh/chhattisgarh1.webp",
+        import.meta.url,
+      ).href,
       category: "Nature",
       featured: false,
     },
@@ -251,7 +311,10 @@ const India = () => {
       subtitle: "Spiritual Roots & Ancient Learning",
       description:
         "Buddhist heritage, ancient universities, and sacred pilgrimage sites",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/bihar/bihar1.webp",
+        import.meta.url,
+      ).href,
       category: "Spiritual",
       featured: false,
     },
@@ -261,7 +324,10 @@ const India = () => {
       subtitle: "Culture, Hills & Coastal Charm",
       description:
         "Colonial heritage, tea gardens, mangroves, and cultural depth",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/westBengal/westBengal1.webp",
+        import.meta.url,
+      ).href,
       category: "Diverse",
       featured: true,
     },
@@ -271,7 +337,10 @@ const India = () => {
       subtitle: "Himalayan Serenity & Spiritual Bliss",
       description:
         "Peaceful monasteries, mountain views, and calm Himalayan travel",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/sikkim/sikkim1.webp",
+        import.meta.url,
+      ).href,
       category: "Mountains",
       featured: false,
     },
@@ -281,7 +350,10 @@ const India = () => {
       subtitle: "Waterfalls, Hills & Living Roots",
       description:
         "Misty hills, waterfalls, living root bridges, and scenic beauty",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/meghalaya/meghalaya1.webp",
+        import.meta.url,
+      ).href,
       category: "Nature",
       featured: false,
     },
@@ -291,7 +363,10 @@ const India = () => {
       subtitle: "Untouched Himalayas & Tribal Culture",
       description:
         "Remote valleys, monasteries, tribal traditions, and pristine nature",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/arunachalPradesh/arunachalPradesh1.webp",
+        import.meta.url,
+      ).href,
       category: "Offbeat",
       featured: false,
     },
@@ -301,7 +376,10 @@ const India = () => {
       subtitle: "Tropical Paradise & Pristine Beaches",
       description:
         "White sand beaches, coral reefs, island luxury, and marine life",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/andn/andn1.webp",
+        import.meta.url,
+      ).href,
       category: "Islands",
       featured: true,
     },
@@ -311,7 +389,10 @@ const India = () => {
       subtitle: "Turquoise Waters & Island Luxury",
       description:
         "Crystal-clear lagoons, coral islands, and serene tropical escapes",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/lakshdweep/lakshdweep1.webp",
+        import.meta.url,
+      ).href,
       category: "Islands",
       featured: false,
     },
@@ -339,7 +420,7 @@ const India = () => {
 
   return (
     <div
-      className="bg-[#f9f9f9] pt-40 pb-10 bg-cover bg-center bg-no-repeat"
+      className="bg-[#f9f9f9] pt-20 pb-20 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bgImg})` }}
     >
       <div className="max-w-7xl mx-auto px-4">
