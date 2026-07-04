@@ -46,7 +46,7 @@ const ImageCarousel = ({ images = [] }) => {
       <img
         src={images[current]}
         alt={`slide-${current}`}
-        className="w-full h-[260px] md:h-[400px] object-cover rounded-xl shadow-md transition-opacity duration-300"
+        className="w-full h-[260px] md:h-[500px] object-cover rounded-xl shadow-md transition-opacity duration-300"
         loading={current === 0 ? "eager" : "lazy"} // First image eager, rest lazy
         decoding="async"
         style={{
