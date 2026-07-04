@@ -2,7 +2,9 @@ import React from "react";
 import aboutUs from "../assets/images/aboutUs.jpg"; // Adjust the path as necessary
 import sukoonLogo from "../assets/images/sukoonlogo.png";
 import bgImg from "../assets/images/paperBg.jpg";
+import WhatsAppButton from "../components/WhatsAppButton";
 const AboutUs = () => {
+  const name = "Sukoon Ek Safar";
   const testimonials = [
     {
       id: 1,
@@ -208,9 +210,16 @@ const AboutUs = () => {
             Let us craft the perfect travel experience tailored exactly to your
             desires.
           </p>
-          <button className="bg-white text-gold-dark px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+          {/* <button className="bg-white text-gold-dark px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
             Contact Us Today
-          </button>
+          </button> */}
+          <div className="flex justify-center px-8 py-3 transition">
+            <WhatsAppButton
+              message={`Hi! I'm interested in learning more about ${name}.`}
+              buttonText={"Contact Us Today"}
+              className="!bg-white hover:!bg-gray-100 !text-gold-dark"
+            />
+          </div>
         </section>
       </div>
     </div>

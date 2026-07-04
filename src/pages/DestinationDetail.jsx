@@ -1,6 +1,7 @@
 import { useParams } from "react-router";
 import { statesData } from "../assets/statesData";
 import ImageCarousel from "../components/ImageCarousel";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 // ---------- Reusable Sections ----------
 const BulletSection = ({ title, items }) => {
@@ -60,6 +61,16 @@ const DestinationDetail = () => {
     ctaText,
   } = destination;
 
+  // WhatsApp click handler
+  const handleWhatsAppClick = () => {
+    const phoneNumber = "919999999999"; // Replace with your actual number
+    const message = `Hi! I'm interested in learning more about ${title}. Can you please help me with more details?`;
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message,
+    )}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <div className="bg-[#fbfbfb] min-h-screen pt-8">
       <div className="max-w-5xl mx-auto py-10 md:py-16 px-4">
@@ -86,9 +97,10 @@ const DestinationDetail = () => {
 
           {ctaText && (
             <div className="mt-10">
-              <button className="bg-gold text-white px-8 py-3 rounded-full hover:bg-gold-dark transition">
-                {ctaText}
-              </button>
+              <WhatsAppButton
+                message={`Hi! I'm interested in learning more about ${title}.`}
+                buttonText={ctaText}
+              />
             </div>
           )}
         </div>
