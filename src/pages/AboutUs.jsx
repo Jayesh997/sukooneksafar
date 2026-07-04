@@ -216,7 +216,7 @@ const AboutUs = () => {
           <div className="flex justify-center px-8 py-3 transition">
             <WhatsAppButton
               message={`Hi! I'm interested in learning more about ${name}.`}
-              buttonText={"Contact Us Today"}
+              buttonText={"Contact Us"}
               className="!bg-white hover:!bg-gray-100 !text-gold-dark"
             />
           </div>
