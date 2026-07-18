@@ -5,9 +5,26 @@ export const statesData = {
     title: "Kenya",
     tagline: "Safari Luxury, Wildlife & Timeless Africa",
     images: [
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
-      new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kenya/kenya1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kenya/kenya2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kenya/kenya3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kenya/kenya4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/kenya/kenya5.webp",
+        import.meta.url,
+      ).href,
     ],
     highlights: [
       "World-renowned wildlife and safari experiences",
@@ -46,6 +63,32 @@ export const statesData = {
     id: "tanzania",
     title: "Tanzania",
     tagline: "Untouched Wilderness & Exclusive Safaris",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/tanzania/tanzania1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tanzania/tanzania2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tanzania/tanzania3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tanzania/tanzania4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tanzania/tanzania5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/tanzania/tanzania6.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Vast national parks and pristine landscapes",
       "Ultra-luxury lodges and exclusive safari camps",
@@ -83,6 +126,32 @@ export const statesData = {
     id: "south-africa",
     title: "South Africa",
     tagline: "Wildlife, Wine & Luxury Experiences",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/southAfrica/southAfrica1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/southAfrica/southAfrica2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/southAfrica/southAfrica3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/southAfrica/southAfrica4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/southAfrica/southAfrica5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/southAfrica/southAfrica6.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Diverse landscapes and premium travel experiences",
       "Luxury safari lodges and boutique hotels",
@@ -120,6 +189,32 @@ export const statesData = {
     id: "morocco",
     title: "Morocco",
     tagline: "Exotic Culture, Heritage & Boutique Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/morocco/morocco1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/morocco/morocco2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/morocco/morocco3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/morocco/morocco4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/morocco/morocco5.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/morocco/morocco6.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Rich culture, colors, and traditions",
       "Luxury riads, desert camps, and boutique hotels",
@@ -157,6 +252,28 @@ export const statesData = {
     id: "egypt",
     title: "Egypt",
     tagline: "Ancient Wonders & Timeless Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Iconic ancient monuments and history",
       "Luxury hotels and Nile cruise experiences",
@@ -1122,6 +1239,28 @@ export const statesData = {
     id: "thailand",
     title: "Thailand",
     tagline: "Tropical Beaches, Culture & Easy Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/thailand/thailand1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/thailand/thailand2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/thailand/thailand3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/thailand/thailand4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/thailand/thailand5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Beautiful beaches, islands, and tropical landscapes",
       "Rich culture, temples, and heritage cities",
@@ -1159,6 +1298,28 @@ export const statesData = {
     id: "bali",
     title: "Bali",
     tagline: "Island Serenity, Culture & Wellness Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/bali/bali1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bali/bali2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bali/bali3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bali/bali4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bali/bali5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Lush rice terraces, beaches, and volcanic landscapes",
       "Deep-rooted culture, temples, and traditional art",
@@ -1196,6 +1357,28 @@ export const statesData = {
     id: "maldives",
     title: "Maldives",
     tagline: "Ultimate Island Luxury & Romance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/maldives/maldives1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/maldives/maldives2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/maldives/maldives3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/maldives/maldives4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/maldives/maldives5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Crystal-clear turquoise waters and white sand beaches",
       "Overwater villas and world-class luxury resorts",
@@ -1270,6 +1453,28 @@ export const statesData = {
     id: "vietnam",
     title: "Vietnam",
     tagline: "Culture, Landscapes & Modern Elegance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/vietnam/vietnam1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/vietnam/vietnam2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/vietnam/vietnam3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/vietnam/vietnam4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/vietnam/vietnam5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Dramatic landscapes, bays, and rice terraces",
       "Historic cities and rich cultural heritage",
@@ -1307,6 +1512,28 @@ export const statesData = {
     id: "singapore",
     title: "Singapore",
     tagline: "Urban Luxury & World-Class Experiences",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/singapore/singapore1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/singapore/singapore2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/singapore/singapore3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/singapore/singapore4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/singapore/singapore5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Modern skyline and iconic architecture",
       "World-class shopping, dining, and attractions",
@@ -1344,6 +1571,28 @@ export const statesData = {
     id: "malaysia",
     title: "Malaysia",
     tagline: "Urban Energy, Nature & Cultural Harmony",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/malaysia/malaysia1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/malaysia/malaysia2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/malaysia/malaysia3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/malaysia/malaysia4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/malaysia/malaysia5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Modern cities and iconic skylines",
       "Tropical rainforests and scenic highlands",
@@ -1381,6 +1630,28 @@ export const statesData = {
     id: "japan",
     title: "Japan",
     tagline: "Tradition, Technology & Refined Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/japan/japan1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/japan/japan2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/japan/japan3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/japan/japan4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/japan/japan5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Ancient temples, shrines, and traditional culture",
       "Ultra-modern cities and cutting-edge technology",
@@ -1419,6 +1690,28 @@ export const statesData = {
     id: "south-korea",
     title: "South Korea",
     tagline: "Modern Cities, Culture & Scenic Beauty",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/south-korea/south-korea1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/south-korea/south-korea2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/south-korea/south-korea3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/south-korea/south-korea4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/south-korea/south-korea5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Vibrant modern cities and advanced infrastructure",
       "Rich cultural heritage and traditional palaces",
@@ -1456,6 +1749,28 @@ export const statesData = {
     id: "bhutan",
     title: "Bhutan",
     tagline: "Happiness, Heritage & Himalayan Serenity",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/bhutan/bhutan1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bhutan/bhutan2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bhutan/bhutan3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bhutan/bhutan4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/bhutan/bhutan5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Peaceful Himalayan landscapes and pristine nature",
       "Strong cultural traditions and spiritual heritage",
@@ -1493,6 +1808,28 @@ export const statesData = {
     id: "nepal",
     title: "Nepal",
     tagline: "Spiritual Serenity, Himalayan Beauty & Timeless Culture",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/nepal/nepal1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nepal/nepal2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nepal/nepal3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nepal/nepal4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/nepal/nepal5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Majestic Himalayan landscapes and mountain views",
       "Deep spiritual and cultural heritage",
@@ -1530,6 +1867,28 @@ export const statesData = {
     id: "turkey",
     title: "Turkey",
     tagline: "Timeless History, Cultural Richness & Scenic Elegance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/turkey/turkey1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/turkey/turkey2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/turkey/turkey3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/turkey/turkey4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/turkey/turkey5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Unique blend of Europe and Asia",
       "Rich history, architecture, and traditions",
@@ -1569,6 +1928,28 @@ export const statesData = {
     id: "china",
     title: "China",
     tagline: "Ancient Civilization, Modern Luxury & Cultural Grandeur",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/china/china1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/china/china2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/china/china3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/china/china4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/china/china5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "One of the world's oldest civilizations",
       "Iconic landmarks and UNESCO heritage sites",
@@ -1606,6 +1987,28 @@ export const statesData = {
     id: "antarctica",
     title: "Antarctica",
     tagline: "Ultimate Expedition, Silence & Ultra-Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/egypt/egypt5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "The world's most remote and untouched destination",
       "Ultra-luxury expedition cruises and polar experiences",
