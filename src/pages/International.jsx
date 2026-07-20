@@ -10,42 +10,66 @@ const REGIONS = [
   {
     label: "Africa",
     value: "Africa",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/kenya/kenya1.webp",
+      import.meta.url,
+    ).href,
   },
   {
-    label: "America",
-    value: "America",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    label: "South America",
+    value: "South America",
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/usa/usa1.webp",
+      import.meta.url,
+    ).href,
   },
   {
     label: "Asia",
     value: "Asia",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/thailand/thailand1.webp",
+      import.meta.url,
+    ).href,
   },
   {
     label: "Australia & New Zealand",
     value: "Australia & New Zealand",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/australia/australia1.webp",
+      import.meta.url,
+    ).href,
   },
   {
     label: "China",
     value: "China",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/china/china1.webp",
+      import.meta.url,
+    ).href,
   },
   {
     label: "Antarctica",
     value: "Antarctica",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/antarctica/antarctica1.webp",
+      import.meta.url,
+    ).href,
   },
   {
     label: "Middle East",
     value: "Middle East",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/uae/uae1.webp",
+      import.meta.url,
+    ).href,
   },
   {
     label: "Europe",
     value: "Europe",
-    imageUrl: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+    imageUrl: new URL(
+      "../assets/images/sukoonWebImages/france/france1.webp",
+      import.meta.url,
+    ).href,
   },
 ];
 
@@ -167,7 +191,10 @@ const International = () => {
       title: "Italy",
       description:
         "Art, heritage, and la dolce vita with ancient ruins, Renaissance masterpieces, and indulgent cuisine",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/italy/italy1.webp",
+        import.meta.url,
+      ).href,
       category: "Heritage",
       featured: true,
     },
@@ -177,7 +204,10 @@ const International = () => {
       title: "Switzerland",
       description:
         "Alpine beauty, scenic luxury, and pristine landscapes with snow-capped mountains and world-class resorts",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/switzerland/switzerland1.webp",
+        import.meta.url,
+      ).href,
       category: "Scenic",
       featured: true,
     },
@@ -187,7 +217,10 @@ const International = () => {
       title: "Spain",
       description:
         "Vibrant culture, historic charm, and coastal leisure with lively cities and Mediterranean beaches",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/spain/spain1.webp",
+        import.meta.url,
+      ).href,
       category: "Mixed",
       featured: true,
     },
@@ -197,7 +230,10 @@ const International = () => {
       title: "Greece",
       description:
         "Ancient heritage, idyllic islands, and Mediterranean luxury with turquoise waters and historic ruins",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/greece/greece1.webp",
+        import.meta.url,
+      ).href,
       category: "Island",
       featured: true,
     },
@@ -207,7 +243,10 @@ const International = () => {
       title: "Austria",
       description:
         "Imperial heritage, scenic Alps, and refined luxury with historic cities and classical music traditions",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/austria/austria1.webp",
+        import.meta.url,
+      ).href,
       category: "Cultural",
       featured: false,
     },
@@ -217,7 +256,10 @@ const International = () => {
       title: "Germany",
       description:
         "History, modern luxury, and scenic landscapes with iconic castles, vineyards, and vibrant cities",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/germany/germany1.webp",
+        import.meta.url,
+      ).href,
       category: "Mixed",
       featured: false,
     },
@@ -227,7 +269,10 @@ const International = () => {
       title: "Netherlands",
       description:
         "Canals, tulips, and urban elegance with picturesque cities and scenic countryside",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/netherlands/netherlands1.webp",
+        import.meta.url,
+      ).href,
       category: "Cultural",
       featured: false,
     },
@@ -237,7 +282,10 @@ const International = () => {
       title: "Belgium",
       description:
         "Historic charm, chocolate, and European elegance with medieval towns and culinary delights",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/belgium/belgium1.webp",
+        import.meta.url,
+      ).href,
       category: "Cultural",
       featured: false,
     },
@@ -247,7 +295,10 @@ const International = () => {
       title: "Czech Republic",
       description:
         "Historic cities, castles, and timeless charm with fairy-tale architecture and rich heritage",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/czechRepublic/czechRepublic1.webp",
+        import.meta.url,
+      ).href,
       category: "Heritage",
       featured: false,
     },
@@ -257,7 +308,10 @@ const International = () => {
       title: "Hungary",
       description:
         "Historic elegance, thermal baths, and scenic beauty with grand architecture and relaxing spas",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/hungary/hungary1.webp",
+        import.meta.url,
+      ).href,
       category: "Wellness",
       featured: false,
     },
@@ -267,7 +321,10 @@ const International = () => {
       title: "Portugal",
       description:
         "Coastal charm, history, and refined leisure with scenic beaches and vibrant cities",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/portugal/portugal1.webp",
+        import.meta.url,
+      ).href,
       category: "Coastal",
       featured: true,
     },
@@ -277,7 +334,10 @@ const International = () => {
       title: "Iceland",
       description:
         "Nature, adventure, and luxury escapes with dramatic landscapes and unique natural phenomena",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/iceland/iceland1.webp",
+        import.meta.url,
+      ).href,
       category: "Adventure",
       featured: true,
     },
@@ -287,7 +347,10 @@ const International = () => {
       title: "Norway",
       description:
         "Fjords, scenic luxury, and natural wonders with majestic landscapes and coastal beauty",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/norway/norway1.webp",
+        import.meta.url,
+      ).href,
       category: "Scenic",
       featured: true,
     },
@@ -297,7 +360,10 @@ const International = () => {
       title: "Sweden",
       description:
         "Scandinavian luxury, nature, and urban charm with modern design and pristine wilderness",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/sweden/sweden2.webp",
+        import.meta.url,
+      ).href,
       category: "Mixed",
       featured: false,
     },
@@ -307,7 +373,10 @@ const International = () => {
       title: "Finland",
       description:
         "Nature, wellness, and Scandinavian elegance with Arctic landscapes and serene lakes",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/finland/finland1.webp",
+        import.meta.url,
+      ).href,
       category: "Wellness",
       featured: false,
     },
@@ -317,7 +386,10 @@ const International = () => {
       title: "Ireland",
       description:
         "Emerald landscapes, history, and refined leisure with rolling hills and charming towns",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/ireland/ireland1.webp",
+        import.meta.url,
+      ).href,
       category: "Scenic",
       featured: false,
     },
@@ -327,7 +399,10 @@ const International = () => {
       title: "United Kingdom",
       description:
         "Heritage, luxury, and iconic experiences with historic cities and royal landmarks",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/uk/uk1.webp",
+        import.meta.url,
+      ).href,
       category: "Heritage",
       featured: true,
     },
@@ -337,7 +412,10 @@ const International = () => {
       title: "Monaco",
       description:
         "Glamour, luxury, and Mediterranean elegance with world-famous casinos and yachts",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/monaco/monaco1.webp",
+        import.meta.url,
+      ).href,
       category: "Luxury",
       featured: true,
     },
@@ -347,7 +425,10 @@ const International = () => {
       title: "Scotland",
       description:
         "Castles, Highlands, and romantic luxury with majestic landscapes and historic estates",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
+      image: new URL(
+        "../assets/images/sukoonWebImages/scotland/scotland1.webp",
+        import.meta.url,
+      ).href,
       category: "Scenic",
       featured: true,
     },
@@ -357,9 +438,12 @@ const International = () => {
       id: "uae",
       region: "Middle East",
       title: "United Arab Emirates",
+      image: new URL(
+        "../assets/images/sukoonWebImages/uae/uae1.webp",
+        import.meta.url,
+      ).href,
       description:
         "Ultra-luxury and iconic experiences with world-famous architecture, premium hotels, and desert adventures in Dubai and Abu Dhabi",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
       category: "Luxury",
       featured: true,
     },
@@ -367,9 +451,12 @@ const International = () => {
       id: "oman",
       region: "Middle East",
       title: "Oman",
+      image: new URL(
+        "../assets/images/sukoonWebImages/oman/oman1.webp",
+        import.meta.url,
+      ).href,
       description:
         "Desert luxury, coastal beauty, and heritage with scenic deserts, pristine beaches, and authentic culture",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
       category: "Mixed",
       featured: false,
     },
@@ -377,9 +464,12 @@ const International = () => {
       id: "qatar",
       region: "Middle East",
       title: "Qatar",
+      image: new URL(
+        "../assets/images/sukoonWebImages/qatar/qatar1.webp",
+        import.meta.url,
+      ).href,
       description:
         "Modern luxury, culture, and iconic experiences with ultra-modern skyline, cultural landmarks, and premium hospitality in Doha",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
       category: "Luxury",
       featured: false,
     },
@@ -387,9 +477,12 @@ const International = () => {
       id: "saudi-arabia",
       region: "Middle East",
       title: "Saudi Arabia",
+      image: new URL(
+        "../assets/images/sukoonWebImages/saudiArabia/saudiArabia1.webp",
+        import.meta.url,
+      ).href,
       description:
         "Heritage, luxury, and cultural exploration with historic landmarks, Red Sea coastline, and traditional Arabian hospitality",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
       category: "Heritage",
       featured: false,
     },
@@ -397,9 +490,12 @@ const International = () => {
       id: "jordan",
       region: "Middle East",
       title: "Jordan",
+      image: new URL(
+        "../assets/images/sukoonWebImages/jordan/jordan1.webp",
+        import.meta.url,
+      ).href,
       description:
         "Heritage, adventure, and luxury exploration with ancient Petra, dramatic Wadi Rum deserts, and Dead Sea wellness resorts",
-      image: new URL("../assets/images/aboutUs.jpg", import.meta.url).href,
       category: "Heritage",
       featured: true,
     },
@@ -613,7 +709,7 @@ const International = () => {
       description:
         "Scenic landscapes and experiential luxury with dramatic fjords, pristine lakes, and luxury lodges in remote landscapes",
       image: new URL(
-        "../assets/images/sukoonWebImages/new-zealand/new-zealand1.webp",
+        "../assets/images/sukoonWebImages/newZealand/newZealand1.webp",
         import.meta.url,
       ).href,
       category: "Nature",
@@ -623,7 +719,7 @@ const International = () => {
     // America Region Destinations
     {
       id: "usa",
-      region: "America",
+      region: "South America",
       title: "United States of America",
       description:
         "Iconic cities, nature and premium experiences with world-famous destinations from New York to California's scenic coastlines",
@@ -636,7 +732,7 @@ const International = () => {
     },
     {
       id: "canada",
-      region: "America",
+      region: "South America",
       title: "Canada",
       description:
         "Scenic beauty, urban comfort and nature luxury with majestic mountains, tranquil lakes and cosmopolitan cities",
@@ -649,7 +745,7 @@ const International = () => {
     },
     {
       id: "mexico",
-      region: "America",
+      region: "South America",
       title: "Mexico",
       description:
         "Culture, beaches and boutique luxury with ancient Mayan ruins, vibrant traditions and luxury beach resorts",
@@ -662,7 +758,7 @@ const International = () => {
     },
     {
       id: "brazil",
-      region: "America",
+      region: "South America",
       title: "Brazil",
       description:
         "Vibrant culture, nature and iconic luxury with lively cities, rainforests, waterfalls and golden beaches",
@@ -675,7 +771,7 @@ const International = () => {
     },
     {
       id: "peru",
-      region: "America",
+      region: "South America",
       title: "Peru",
       description:
         "Ancient heritage and experiential luxury with iconic Machu Picchu, historic Cusco and scenic Sacred Valley",
@@ -688,7 +784,7 @@ const International = () => {
     },
     {
       id: "caribbean",
-      region: "America",
+      region: "South America",
       title: "Caribbean",
       description:
         "Tropical luxury and island indulgence with pristine beaches, turquoise waters and premium island resorts",

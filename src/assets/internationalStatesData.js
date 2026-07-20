@@ -312,6 +312,24 @@ export const statesData = {
     id: "france",
     title: "France",
     tagline: "Romance, Art & Timeless Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/france/france1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/france/france2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/france/france3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/france/france4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Iconic cities and romantic landscapes",
       "World-renowned art, fashion, and culture",
@@ -349,6 +367,24 @@ export const statesData = {
     id: "italy",
     title: "Italy",
     tagline: "Art, Heritage & La Dolce Vita",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/italy/italy1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/italy/italy2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/italy/italy3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/italy/italy4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Rich history, art, and architectural wonders",
       "Romantic cities and scenic countryside",
@@ -386,6 +422,24 @@ export const statesData = {
     id: "switzerland",
     title: "Switzerland",
     tagline: "Alpine Beauty, Scenic Luxury & Pristine Landscapes",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/switzerland/switzerland1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/switzerland/switzerland2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/switzerland/switzerland3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/switzerland/switzerland4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Snow-capped mountains and scenic lakes",
       "World-class train journeys and views",
@@ -423,6 +477,24 @@ export const statesData = {
     id: "spain",
     title: "Spain",
     tagline: "Vibrant Culture, Historic Charm & Coastal Leisure",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/spain/spain1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/spain/spain2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/spain/spain3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/spain/spain4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Lively cities with rich history and culture",
       "Beautiful coastlines and island escapes",
@@ -460,6 +532,24 @@ export const statesData = {
     id: "greece",
     title: "Greece",
     tagline: "Ancient Heritage, Islands & Mediterranean Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/greece/greece1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/greece/greece2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/greece/greece3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/greece/greece4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Historic ruins and ancient architecture",
       "Idyllic islands with turquoise waters",
@@ -497,6 +587,24 @@ export const statesData = {
     id: "austria",
     title: "Austria",
     tagline: "Imperial Heritage, Scenic Alps & Refined Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/austria/austria1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/austria/austria2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/austria/austria3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/austria/austria4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Historic cities with imperial architecture",
       "Scenic Alpine landscapes and lakes",
@@ -534,6 +642,24 @@ export const statesData = {
     id: "germany",
     title: "Germany",
     tagline: "History, Modern Luxury & Scenic Landscapes",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/germany/germany1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/germany/germany2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/germany/germany3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/germany/germany4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Blend of historic cities and modern architecture",
       "Scenic countryside, castles, and vineyards",
@@ -571,6 +697,24 @@ export const statesData = {
     id: "netherlands",
     title: "Netherlands",
     tagline: "Canals, Tulips & Urban Elegance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/netherlands/netherlands1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/netherlands/netherlands2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/netherlands/netherlands3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/netherlands/netherlands4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Picturesque canals and historic cities",
       "Vibrant tulip fields and scenic countryside",
@@ -608,6 +752,24 @@ export const statesData = {
     id: "belgium",
     title: "Belgium",
     tagline: "Historic Charm, Chocolate & European Elegance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/belgium/belgium1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/belgium/belgium2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/belgium/belgium3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/belgium/belgium4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Medieval towns and historic architecture",
       "Luxury hotels and boutique stays",
@@ -645,6 +807,24 @@ export const statesData = {
     id: "czech-republic",
     title: "Czech Republic",
     tagline: "Historic Cities, Castles & Timeless Charm",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/czechRepublic/czechRepublic1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/czechRepublic/czechRepublic2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/czechRepublic/czechRepublic3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/czechRepublic/czechRepublic4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Medieval towns and historic architecture",
       "Luxury hotels and boutique stays",
@@ -682,6 +862,24 @@ export const statesData = {
     id: "hungary",
     title: "Hungary",
     tagline: "Historic Elegance, Thermal Baths & Scenic Beauty",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/hungary/hungary1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/hungary/hungary2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/hungary/hungary3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/hungary/hungary4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Historic cities with grand architecture",
       "Luxury hotels and boutique stays",
@@ -719,6 +917,24 @@ export const statesData = {
     id: "portugal",
     title: "Portugal",
     tagline: "Coastal Charm, History & Refined Leisure",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/portugal/portugal1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/portugal/portugal2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/portugal/portugal3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/portugal/portugal4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Scenic coastline, beaches, and historic towns",
       "Luxury hotels, boutique stays, and seaside resorts",
@@ -756,6 +972,24 @@ export const statesData = {
     id: "iceland",
     title: "Iceland",
     tagline: "Nature, Adventure & Luxury Escapes",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/iceland/iceland1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/iceland/iceland2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/iceland/iceland3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/iceland/iceland4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Dramatic landscapes: glaciers, volcanoes, and waterfalls",
       "Luxury boutique hotels and scenic lodges",
@@ -793,6 +1027,24 @@ export const statesData = {
     id: "norway",
     title: "Norway",
     tagline: "Fjords, Scenic Luxury & Natural Wonders",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/norway/norway1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/norway/norway2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/norway/norway3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/norway/norway4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Majestic fjords, mountains, and coastal landscapes",
       "Luxury hotels, lodges, and boutique stays",
@@ -830,6 +1082,24 @@ export const statesData = {
     id: "sweden",
     title: "Sweden",
     tagline: "Scandinavian Luxury, Nature & Urban Charm",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/sweden/sweden1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sweden/sweden2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sweden/sweden3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/sweden/sweden4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Modern cities with Scandinavian design and culture",
       "Scenic archipelagos, lakes, and forests",
@@ -867,6 +1137,24 @@ export const statesData = {
     id: "finland",
     title: "Finland",
     tagline: "Nature, Wellness & Scandinavian Elegance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/finland/finland1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/finland/finland2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/finland/finland3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/finland/finland4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Pristine forests, lakes, and Arctic landscapes",
       "Luxury lodges, boutique stays, and wellness retreats",
@@ -904,6 +1192,24 @@ export const statesData = {
     id: "ireland",
     title: "Ireland",
     tagline: "Emerald Landscapes, History & Refined Leisure",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/ireland/ireland1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ireland/ireland2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ireland/ireland3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/ireland/ireland4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Rolling green hills and scenic countryside",
       "Luxury hotels, castles, and boutique stays",
@@ -941,6 +1247,16 @@ export const statesData = {
     id: "united-kingdom",
     title: "United Kingdom",
     tagline: "Heritage, Luxury & Iconic Experiences",
+    images: [
+      new URL("../assets/images/sukoonWebImages/uk/uk1.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uk/uk2.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uk/uk3.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uk/uk4.webp", import.meta.url)
+        .href,
+    ],
     highlights: [
       "Historic cities, castles, and royal landmarks",
       "Luxury hotels, boutique stays, and countryside estates",
@@ -978,6 +1294,24 @@ export const statesData = {
     id: "monaco",
     title: "Monaco",
     tagline: "Glamour, Luxury & Mediterranean Elegance",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/monaco/monaco1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/monaco/monaco2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/monaco/monaco3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/monaco/monaco4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Iconic Mediterranean coastline and luxury lifestyle",
       "High-end hotels, resorts, and boutique stays",
@@ -1015,6 +1349,24 @@ export const statesData = {
     id: "scotland",
     title: "Scotland",
     tagline: "Castles, Highlands & Romantic Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/scotland/scotland1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/scotland/scotland2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/scotland/scotland3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/scotland/scotland4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Majestic castles and historic estates",
       "Scenic Highlands, lochs, and rolling countryside",
@@ -1053,6 +1405,18 @@ export const statesData = {
     id: "uae",
     title: "United Arab Emirates",
     tagline: "Dubai & Abu Dhabi – Ultra-Luxury & Iconic Experiences",
+    images: [
+      new URL("../assets/images/sukoonWebImages/uae/uae1.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uae/uae2.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uae/uae3.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uae/uae4.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/uae/uae5.webp", import.meta.url)
+        .href,
+    ],
     highlights: [
       "World-famous luxury, architecture, and experiences",
       "Premium hotels, resorts, and desert lodges",
@@ -1090,6 +1454,28 @@ export const statesData = {
     id: "oman",
     title: "Oman",
     tagline: "Desert Luxury, Coastal Beauty & Heritage",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/oman/oman1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/oman/oman2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/oman/oman3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/oman/oman4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/oman/oman5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Scenic deserts, mountains, and coastline",
       "Luxury resorts, boutique hotels, and desert lodges",
@@ -1127,6 +1513,24 @@ export const statesData = {
     id: "qatar",
     title: "Qatar",
     tagline: "Modern Luxury, Culture & Iconic Experiences",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/qatar/qatar1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/qatar/qatar2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/qatar/qatar3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/qatar/qatar4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Ultra-modern city skyline and iconic architecture",
       "Luxury hotels, resorts, and boutique stays",
@@ -1164,6 +1568,28 @@ export const statesData = {
     id: "saudi-arabia",
     title: "Saudi Arabia",
     tagline: "Heritage, Luxury & Cultural Exploration",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/saudiArabia/saudiArabia1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/saudiArabia/saudiArabia2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/saudiArabia/saudiArabia3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/saudiArabia/saudiArabia4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/saudiArabia/saudiArabia5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Rich history, culture, and heritage",
       "Luxury hotels, resorts, and boutique stays",
@@ -1201,6 +1627,28 @@ export const statesData = {
     id: "jordan",
     title: "Jordan",
     tagline: "Heritage, Adventure & Luxury Exploration",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/jordan/jordan1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jordan/jordan2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jordan/jordan3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jordan/jordan4.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/jordan/jordan5.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Ancient history and UNESCO heritage sites",
       "Luxury resorts, boutique hotels, and desert camps",
@@ -1989,23 +2437,15 @@ export const statesData = {
     tagline: "Ultimate Expedition, Silence & Ultra-Luxury",
     images: [
       new URL(
-        "../assets/images/sukoonWebImages/egypt/egypt1.webp",
+        "../assets/images/sukoonWebImages/antarctica/antarctica1.webp",
         import.meta.url,
       ).href,
       new URL(
-        "../assets/images/sukoonWebImages/egypt/egypt2.webp",
+        "../assets/images/sukoonWebImages/antarctica/antarctica2.webp",
         import.meta.url,
       ).href,
       new URL(
-        "../assets/images/sukoonWebImages/egypt/egypt3.webp",
-        import.meta.url,
-      ).href,
-      new URL(
-        "../assets/images/sukoonWebImages/egypt/egypt4.webp",
-        import.meta.url,
-      ).href,
-      new URL(
-        "../assets/images/sukoonWebImages/egypt/egypt5.webp",
+        "../assets/images/sukoonWebImages/antarctica/antarctica3.webp",
         import.meta.url,
       ).href,
     ],
@@ -2046,6 +2486,24 @@ export const statesData = {
     id: "australia",
     title: "Australia",
     tagline: "Iconic Cities, Nature & Refined Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/australia/australia1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/australia/australia2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/australia/australia3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/australia/australia4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "World-class cities and scenic coastlines",
       "Luxury hotels, resorts, and boutique stays",
@@ -2083,6 +2541,24 @@ export const statesData = {
     id: "new-zealand",
     title: "New Zealand",
     tagline: "Scenic Landscapes & Experiential Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/newZealand/newZealand1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/newZealand/newZealand2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/newZealand/newZealand3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/newZealand/newZealand4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Dramatic landscapes and natural beauty",
       "Luxury lodges, boutique hotels, and retreats",
@@ -2120,6 +2596,16 @@ export const statesData = {
     id: "usa",
     title: "United States of America",
     tagline: "Iconic Cities, Nature & Premium Experiences",
+    images: [
+      new URL("../assets/images/sukoonWebImages/usa/usa1.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/usa/usa2.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/usa/usa3.webp", import.meta.url)
+        .href,
+      new URL("../assets/images/sukoonWebImages/usa/usa4.webp", import.meta.url)
+        .href,
+    ],
     highlights: [
       "World-famous cities and diverse landscapes",
       "Luxury hotels, resorts, and boutique stays",
@@ -2157,6 +2643,24 @@ export const statesData = {
     id: "canada",
     title: "Canada",
     tagline: "Scenic Beauty, Urban Comfort & Nature Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/canada/canada1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/canada/canada2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/canada/canada3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/canada/canada4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Pristine nature and scenic landscapes",
       "Luxury hotels, lodges, and boutique stays",
@@ -2194,6 +2698,24 @@ export const statesData = {
     id: "mexico",
     title: "Mexico",
     tagline: "Culture, Beaches & Boutique Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/mexico/mexico1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mexico/mexico2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mexico/mexico3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/mexico/mexico4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Vibrant culture and rich heritage",
       "Luxury beach resorts and boutique stays",
@@ -2231,6 +2753,24 @@ export const statesData = {
     id: "brazil",
     title: "Brazil",
     tagline: "Vibrant Culture, Nature & Iconic Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/brazil/brazil1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/brazil/brazil2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/brazil/brazil3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/brazil/brazil4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Lively cities and world-famous landscapes",
       "Luxury hotels, beach resorts, and boutique stays",
@@ -2268,6 +2808,24 @@ export const statesData = {
     id: "peru",
     title: "Peru",
     tagline: "Ancient Heritage & Experiential Luxury",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/peru/peru1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/peru/peru2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/peru/peru3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/peru/peru4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Ancient civilizations and UNESCO heritage sites",
       "Luxury boutique hotels and experiential stays",
@@ -2305,6 +2863,24 @@ export const statesData = {
     id: "caribbean",
     title: "Caribbean",
     tagline: "Tropical Luxury & Island Indulgence",
+    images: [
+      new URL(
+        "../assets/images/sukoonWebImages/caribbean/caribbean1.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/caribbean/caribbean2.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/caribbean/caribbean3.webp",
+        import.meta.url,
+      ).href,
+      new URL(
+        "../assets/images/sukoonWebImages/caribbean/caribbean4.webp",
+        import.meta.url,
+      ).href,
+    ],
     highlights: [
       "Pristine beaches and turquoise waters",
       "Luxury island resorts and private stays",
