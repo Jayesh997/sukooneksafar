@@ -5,6 +5,7 @@ import { NavLink } from "react-router";
 import WebsiteFrontVideo from "../assets/videos/WebsiteFrontVideo1.mp4";
 import aboutUsImage from "../assets/images/aboutUs.jpg"; // Import your about us image
 import logo from "../assets/images/navLogo.png";
+import WhatsAppButton from "../components/WhatsAppButton";
 
 const HeroVideo = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -58,12 +59,18 @@ const HeroVideo = () => {
           Where Every Journey Begins With Comfort, Care & Trust
         </p>
 
-        <NavLink
+        {/* <NavLink
           to="/about"
           className="bg-transparent border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition"
         >
           Explore More
-        </NavLink>
+        </NavLink> */}
+
+        <WhatsAppButton
+          message={`Hi! I'm interested in Exploring More about Sukoon Ek Safar.`}
+          buttonText={"Explore More"}
+          className="bg-transparent border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition"
+        />
       </div>
     </div>
   );

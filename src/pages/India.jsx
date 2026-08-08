@@ -426,8 +426,11 @@ const India = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-serif text-gray-800 mb-4">
+          {/* <h1 className="text-4xl md:text-5xl font-serif text-gray-800 mb-4">
             Discover India
+          </h1> */}
+          <h1 className="text-4xl md:text-5xl font-serif text-gold-dark mb-4">
+            Discover <span className="text-gold">India</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Explore breathtaking destinations curated by our travel experts

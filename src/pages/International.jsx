@@ -825,8 +825,13 @@ const International = () => {
       <div className="max-w-7xl mx-auto px-4">
         {/* Hero */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-serif text-gray-800 mb-4">
+          {/* <h1 className="text-4xl md:text-5xl font-serif text-gray-800 mb-4">
             Discover {activeRegion || "the World"}
+          </h1> */}
+
+          <h1 className="text-4xl md:text-5xl font-serif text-gold-dark mb-4">
+            Discover{" "}
+            <span className="text-gold">{activeRegion || "the World"}</span>
           </h1>
           <p className="text-xl text-gray-600">
             Choose a region to explore curated destinations

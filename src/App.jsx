@@ -3,33 +3,27 @@ import { Routes, Route } from "react-router";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
-import Experience from "./pages/Experience";
-// import Destinations from "./pages/Destinations";
 import DestinationDetail from "./pages/DestinationDetail";
 import ExperienceDetail from "./pages/ExperienceDetail";
 import NotFound from "./pages/NotFound";
-import India from "./pages/India";
-import International from "./pages/International";
 import InternationalDestinationDetail from "./pages/InternationalDestinationDetails";
 import ScrollToTop from "./ScrollToTop";
 import ScrollToSectionOnLoad from "./components/ScrollToSectionOnLoad";
+import OurServices from "./pages/OurServices";
 
 function App() {
   return (
     <>
       <NavBar />
       <ScrollToTop />
-      <ScrollToSectionOnLoad /> {/* Add this */}
+      <ScrollToSectionOnLoad />
       <Routes>
-        {/* Home page with all sections */}
+        {/* Home page with all sections - this handles /, /india, /international, /services, /about */}
         <Route path="/" element={<Home />} />
-
-        {/* Individual pages */}
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/experiences" element={<Experience />} />
-        {/* <Route path="/destinations" element={<Destinations />} /> */}
-        <Route path="/india" element={<India />} />
-        <Route path="/international" element={<International />} />
+        <Route path="/india" element={<Home />} />
+        <Route path="/international" element={<Home />} />
+        <Route path="/services" element={<Home />} />
+        <Route path="/about" element={<Home />} />
 
         {/* Detail pages */}
         <Route path="/india/:id" element={<DestinationDetail />} />

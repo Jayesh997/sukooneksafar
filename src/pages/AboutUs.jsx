@@ -1,6 +1,6 @@
 import React from "react";
 import aboutUs from "../assets/images/aboutUs.jpg"; // Adjust the path as necessary
-import sukoonLogo from "../assets/images/sukoonlogo.png";
+import sukoonLogo from "../assets/images/sukoon.png";
 import bgImg from "../assets/images/paperBg.jpg";
 import WhatsAppButton from "../components/WhatsAppButton";
 const AboutUs = () => {
@@ -55,88 +55,401 @@ const AboutUs = () => {
     >
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 pt-28 py-16">
-        {/* Mission Section */}
-        <section className="mb-20">
-          <div className="flex flex-col md:flex-row gap-12 items-center">
-            <div className="md:w-1/2">
-              <img
-                src={sukoonLogo} // Replace with your image
-                alt="Sukoon Ek Safar"
-                className="rounded-lg "
-              />
-            </div>
-            <div className="md:w-1/2">
-              <h2 className="text-3xl font-serif text-gold-dark mb-2">
-                Sukoon Ek Safar
-              </h2>
-              <p className="text-xl md:text-xl text-gold-dark max-w-3xl mx-auto ">
-                13 years of travel experience Recognised by ministry of Tourism
-              </p>
-              <p className="text-xl md:text-xl text-gold-dark max-w-3xl mx-auto mb-6">
-                A Unit of Cherish Journeys
-              </p>
-              <p className="text-lg text-gray-600 mb-6">
-                At Sukoon Ek Safar, we believe travel is more than just moving
-                from one destination to another. It’s about creating space to
-                breathe, to pause, and to reconnect with yourself. In a world
-                that never slows down, we design journeys that do. Every
-                experience with Sukoon is meant to help you Pause. Breathe.
-                Travel., turning travel into a soulful escape rather than a
-                checklist of places. From serene mountain retreats to tranquil
-                beaches, from quiet heritage trails to soulful escapes abroad,
-                every trip we craft focuses on peace, comfort, and mindful
-                experiences. And the best part? You don’t have to do a thing. We
-                take care of everything - planning, bookings, itineraries, and
-                every detail in between, so all you need to do is pause from
-                your life and immerse yourself in the journey.
-              </p>
-              <p className="text-lg text-gray-600">
-                What sets Sukoon apart is its essence — while most tours chase
-                speed and sightseeing, we bring you stillness and depth. Our
-                focus is not on covering the most, but on feeling the most.
-                Sukoon Ek Safar is proud a venture of Cherish Journeys, a
-                trusted inbound travel company. Guided by a founder with over 13
-                years of experience in the travel industry, we bring
-                professional expertise and heartfelt vision to create journeys
-                that prioritize peace, comfort, and mindful travel, helping
-                every traveller truly stop, pause, and relax
-              </p>
+        {/* Enhanced Mission Section - Clean Version */}
+
+        <section className="mb-50 group relative overflow-hidden rounded-2xl p-10 transition-all duration-700 ease-in-out hover:bg-white hover:shadow-xl">
+          {/* Sliding background layer */}
+          <div className="absolute inset-0 bg-white -translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-in-out"></div>
+
+          {/* Content - keeps above background */}
+          <div className="relative z-10">
+            <div className="flex flex-col md:flex-row gap-12 items-center">
+              {/* Image Container */}
+              <div className="md:w-1/2 m-5">
+                <div className="relative overflow-hidden rounded-2xl">
+                  <img
+                    src={sukoonLogo}
+                    alt="Sukoon Ek Safar"
+                    className="w-full rounded-2xl p-10 transition-transform duration-700 group-hover:scale-105"
+                  />
+                </div>
+              </div>
+
+              {/* Content */}
+              <div className="md:w-1/2">
+                {/* Label */}
+                <p className="text-sm uppercase tracking-[0.3em] text-gold font-medium mb-2">
+                  About Us
+                </p>
+
+                {/* Title */}
+                <h2 className="text-3xl md:text-4xl font-serif text-gold-dark mb-4">
+                  Sukoon Ek Safar
+                </h2>
+
+                {/* Key info badges - clean and minimal */}
+                <div className="flex flex-wrap gap-3 mb-5">
+                  <span className="text-sm text-gold-dark font-medium">
+                    ✦ 13+ Years
+                  </span>
+                  <span className="text-sm text-gray-400">|</span>
+                  <span className="text-sm text-gold-dark font-medium">
+                    ✦ Recognised by Ministry of Tourism
+                  </span>
+                  <span className="text-sm text-gray-400">|</span>
+                  <span className="text-sm text-gold-dark font-medium">
+                    ✦ A Unit of Cherish Journeys
+                  </span>
+                </div>
+
+                {/* Content */}
+                <div className="space-y-4">
+                  <p className="text-gray-600 leading-relaxed">
+                    At Sukoon Ek Safar, we believe travel is more than just
+                    moving from one destination to another. It's about creating
+                    space to breathe, to pause, and to reconnect with yourself.
+                  </p>
+
+                  <p className="text-gray-600 leading-relaxed">
+                    <span className="text-gold-dark font-medium">
+                      "Pause. Breathe. Travel."
+                    </span>{" "}
+                    — turning travel into a soulful escape rather than a
+                    checklist of places.
+                  </p>
+
+                  <p className="text-gray-600 leading-relaxed">
+                    From serene mountain retreats to tranquil beaches, from
+                    quiet heritage trails to soulful escapes abroad, every trip
+                    we craft focuses on peace, comfort, and mindful experiences.
+                  </p>
+
+                  <p className="text-gray-600 leading-relaxed">
+                    <span className="text-gold-dark font-medium">
+                      "We take care of everything"
+                    </span>{" "}
+                    — planning, bookings, itineraries, and every detail in
+                    between.
+                  </p>
+
+                  <p className="text-gray-600 leading-relaxed">
+                    What sets Sukoon apart is its essence — while most tours
+                    chase speed and sightseeing, we bring you stillness and
+                    depth. Our focus is not on covering the most, but on
+                    <span className="text-gold-dark font-medium">
+                      {" "}
+                      feeling the most
+                    </span>
+                    .
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
         {/* Why Choose Us Section */}
-        <section className="mb-20 bg-gray-50 p-12 rounded-xl">
-          <h2 className="text-3xl font-serif text-center text-gold-dark mb-12">
-            Why Choose Sukoon Ek Safar
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="text-gold text-7xl mb-4">✨</div>
-              <h3 className="text-xl font-semibold mb-3">
-                Tailored Experiences
+        <section className="mb-20 p-30 bg-[#f8f9fa] rounded-2xl">
+          <div className="text-center mb-12">
+            <p className="text-sm uppercase tracking-[0.3em] text-gold font-medium mb-3">
+              The Sukoon Difference
+            </p>
+
+            <h2 className="text-3xl md:text-4xl font-serif text-gold-dark">
+              Why Choose Sukoon Ek Safar
+            </h2>
+
+            <div className="w-16 h-px bg-gold mx-auto mt-5"></div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {/* 1. Thoughtful Planning */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  01
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Thoughtful Planning
               </h3>
-              <p className="text-gray-600">
-                Every vacation is customized to your specific tastes, needs, and
-                budget with our personal touch.
+
+              <p className="text-sm leading-6 text-gray-500">
+                Every journey is carefully designed around your comfort, pace,
+                and preferences.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="text-gold text-7xl mb-4">😇</div>
-              <h3 className="text-xl font-semibold mb-3">
-                Transparent Pricing
+
+            {/* 2. Curated Experiences */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  02
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M12 3l1.9 5.9h6.1l-4.95 3.6 1.9 5.9L12 15l-4.95 3.4 1.9-5.9L4 8.9h6.1L12 3z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Curated Experiences
               </h3>
-              <p className="text-gray-600">
-                No hidden costs - we're upfront about what's included and
-                excluded in your tour package.
+
+              <p className="text-sm leading-6 text-gray-500">
+                Handpicked stays and meaningful experiences tailored just for
+                you.
               </p>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-md text-center">
-              <div className="text-gold text-7xl mb-4">🙏</div>
-              <h3 className="text-xl font-semibold mb-3">Quality Partners</h3>
-              <p className="text-gray-600">
-                We work only with the best transport companies, qualified
-                guides, hotels, and restaurants.
+
+            {/* 3. Travel With Care */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  03
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Travel With Care
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                We plan every detail with responsibility, warmth, and genuine
+                attention.
+              </p>
+            </div>
+
+            {/* 4. Seamless Support */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  04
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M18 10c0 3.314-2.686 6-6 6s-6-2.686-6-6 2.686-6 6-6 6 2.686 6 6z"
+                    />
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M12 16v5m-3 0h6M9 10h.01M15 10h.01"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Seamless Support
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                From planning to return, we’re with you at every step of the
+                journey.
+              </p>
+            </div>
+
+            {/* 5. Personal Attention */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  05
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2m6-10a4 4 0 100-8 4 4 0 000 8zm10 10v-2a4 4 0 00-3-3.87m-1-8a4 4 0 110 7.75"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Personal Attention
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                Dedicated guidance and customized solutions for every traveler.
+              </p>
+            </div>
+
+            {/* 6. Global Expertise */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  06
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle cx="12" cy="12" r="9" strokeWidth="1.5" />
+                    <path
+                      strokeLinecap="round"
+                      strokeWidth="1.5"
+                      d="M3 12h18M12 3c2.2 2.4 3.3 5.4 3.3 9s-1.1 6.6-3.3 9c-2.2-2.4-3.3-5.4-3.3-9S9.8 5.4 12 3z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Global Expertise
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                Deep destination knowledge backed by years of travel experience.
+              </p>
+            </div>
+
+            {/* 7. Stress-Free Travel */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  07
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M5 13l4 4L19 7"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Stress-Free Travel
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                Smooth arrangements so you can simply relax and enjoy.
+              </p>
+            </div>
+            {/* 8. Authentic Connections */}
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+              <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
+
+              <div className="flex items-center justify-between mb-6">
+                <span className="text-sm font-medium text-gold tracking-widest">
+                  08
+                </span>
+
+                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="1.5"
+                      d="M17 20h5v-2a4 4 0 00-4-4h-1M9 20H4v-2a4 4 0 014-4h1m7-5a4 4 0 11-8 0 4 4 0 018 0zm4-2a3 3 0 10-6 0"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+                Authentic Connections
+              </h3>
+
+              <p className="text-sm leading-6 text-gray-500">
+                Meaningful local experiences that help you connect with the
+                people and places you visit.
               </p>
             </div>
           </div>
@@ -173,7 +486,6 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-
         <section className="mb-20">
           <h2 className="text-3xl font-serif text-center text-gray-800 mb-12">
             What Our Travelers Say
@@ -200,7 +512,6 @@ const AboutUs = () => {
             ))}
           </div>
         </section>
-
         {/* CTA Section */}
         <section className="bg-grey text-gold rounded-xl p-12 text-center">
           <h2 className="text-3xl font-serif mb-6">
