@@ -149,7 +149,7 @@ const AboutUs = () => {
         </section>
 
         {/* Why Choose Us Section */}
-        <section className="mb-20 p-30 bg-[#f8f9fa] rounded-2xl">
+        <section className="mb-20 p-10 bg-[#f8f9fa] rounded-2xl">
           <div className="text-center mb-12">
             <p className="text-sm uppercase tracking-[0.3em] text-gold font-medium mb-3">
               The Sukoon Difference
@@ -162,7 +162,7 @@ const AboutUs = () => {
             <div className="w-16 h-px bg-gold mx-auto mt-5"></div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 w-full justify-items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-4 gap-4 md:gap-5 w-full justify-items-center">
             {/* 1. Thoughtful Planning */}
             <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
