@@ -181,19 +181,14 @@ const Navbar = () => {
                 onClick={(e) => handleNavClick(e, item)}
                 className={`
                   text-2xl font-light uppercase tracking-wider transition-colors duration-300 relative
-                  ${
-                    location.pathname === item.path ||
-                    (location.pathname === "/" && item.path === "/")
-                      ? "text-gold font-medium"
-                      : "text-white hover:text-gold"
-                  }
+                  
                 `}
               >
                 {item.name}
-                {(location.pathname === item.path ||
+                {/* {(location.pathname === item.path ||
                   (location.pathname === "/" && item.path === "/")) && (
                   <span className="absolute bottom-0 left-0 w-full h-px bg-gold"></span>
-                )}
+                )} */}
               </a>
             ))}
           </div>
