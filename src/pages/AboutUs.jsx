@@ -162,19 +162,19 @@ const AboutUs = () => {
             <div className="w-16 h-px bg-gold mx-auto mt-5"></div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5 w-full justify-items-center">
             {/* 1. Thoughtful Planning */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   01
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -189,28 +189,28 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Thoughtful Planning
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 Every journey is carefully designed around your comfort, pace,
                 and preferences.
               </p>
             </div>
 
             {/* 2. Curated Experiences */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   02
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -225,28 +225,28 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Curated Experiences
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 Handpicked stays and meaningful experiences tailored just for
                 you.
               </p>
             </div>
 
             {/* 3. Travel With Care */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   03
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -261,28 +261,28 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Travel With Care
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 We plan every detail with responsibility, warmth, and genuine
                 attention.
               </p>
             </div>
 
             {/* 4. Seamless Support */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   04
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -303,28 +303,28 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Seamless Support
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
-                From planning to return, we’re with you at every step of the
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
+                From planning to return, we're with you at every step of the
                 journey.
               </p>
             </div>
 
             {/* 5. Personal Attention */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   05
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -339,27 +339,27 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Personal Attention
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 Dedicated guidance and customized solutions for every traveler.
               </p>
             </div>
 
             {/* 6. Global Expertise */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   06
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -374,27 +374,27 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Global Expertise
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 Deep destination knowledge backed by years of travel experience.
               </p>
             </div>
 
             {/* 7. Stress-Free Travel */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   07
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -409,26 +409,27 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Stress-Free Travel
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 Smooth arrangements so you can simply relax and enjoy.
               </p>
             </div>
+
             {/* 8. Authentic Connections */}
-            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40">
+            <div className="group relative bg-white/80 backdrop-blur-sm border border-gray-200 rounded-2xl p-5 sm:p-6 md:p-7 overflow-hidden transition-all duration-500 hover:-translate-y-2 hover:shadow-xl hover:border-gold/40 w-full max-w-[400px] sm:max-w-none sm:min-w-0">
               <div className="absolute top-0 left-0 w-0 h-1 bg-gold transition-all duration-500 group-hover:w-full"></div>
 
-              <div className="flex items-center justify-between mb-6">
-                <span className="text-sm font-medium text-gold tracking-widest">
+              <div className="flex items-center justify-between mb-4 sm:mb-5 md:mb-6">
+                <span className="text-xs sm:text-sm font-medium text-gold tracking-widest">
                   08
                 </span>
 
-                <div className="w-11 h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6">
+                <div className="w-9 h-9 sm:w-10 sm:h-10 md:w-11 md:h-11 rounded-full bg-gold/10 flex items-center justify-center text-gold transition-all duration-500 group-hover:bg-gold group-hover:text-white group-hover:rotate-6 flex-shrink-0">
                   <svg
-                    className="w-5 h-5"
+                    className="w-4 h-4 sm:w-5 sm:h-5"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -443,11 +444,11 @@ const AboutUs = () => {
                 </div>
               </div>
 
-              <h3 className="text-lg font-semibold text-gray-800 mb-3 whitespace-nowrap">
+              <h3 className="text-base sm:text-lg font-semibold text-gray-800 mb-2 sm:mb-3 break-words">
                 Authentic Connections
               </h3>
 
-              <p className="text-sm leading-6 text-gray-500">
+              <p className="text-xs sm:text-sm leading-5 sm:leading-6 text-gray-500 break-words">
                 Meaningful local experiences that help you connect with the
                 people and places you visit.
               </p>
