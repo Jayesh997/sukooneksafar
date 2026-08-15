@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 import { NavLink } from "react-router";
 import WebsiteFrontVideo from "../assets/videos/WebsiteFrontVideo1.mp4";
 import aboutUsImage from "../assets/images/aboutUs.jpg"; // Import your about us image
-import logo from "../assets/images/navLogo.png";
+import logo from "../assets/images/sukoon.png";
 import WhatsAppButton from "../components/WhatsAppButton";
 
 const HeroVideo = () => {
@@ -51,7 +51,7 @@ const HeroVideo = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 z-10"></div>
 
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-white px-4 text-center">
-        <img src={logo} alt="cherish" />
+        <img src={logo} alt="cherish" className="w-100" />
         <h1 className="text-5xl md:text-7xl font-serif mb-4 text-gold">
           Sukoon Ek Safar...
         </h1>
