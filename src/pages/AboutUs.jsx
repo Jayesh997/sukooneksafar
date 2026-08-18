@@ -487,7 +487,7 @@ const AboutUs = () => {
             </div>
           </div>
         </section>
-        <section className="mb-20">
+        {/* <section className="mb-20">
           <h2 className="text-3xl font-serif text-center text-gray-800 mb-12">
             What Our Travelers Say
           </h2>
@@ -512,7 +512,7 @@ const AboutUs = () => {
               </div>
             ))}
           </div>
-        </section>
+        </section> */}
         {/* CTA Section */}
         <section className="bg-grey text-gold rounded-xl p-12 text-center">
           <h2 className="text-3xl font-serif mb-6">
